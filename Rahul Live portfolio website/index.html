@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba3c881553.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section Header>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1><span>R</span>ahul.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web Developer</p>
+                <h1>Hello, It's me <span>Rahul</span> Sonar</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section About>
+<div class="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi! I’m passionate about creating user-friendly web experiences, with knowledge of JavaScript, HTML, and CSS!</p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active=link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Html</span><br>Creating Website Structure.</li>
+                        <li><span>CSS</span><br>Developing Website Desigin.</li>
+                        <li><span>Javascript</span><br>Creating dynamic Websites.</li>
+                        <li><span>Sql</span><br>Maintaining Database.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jr Web Developer</span><br>Designing Website interface.</li>
+                        <li><span>App Support Engineer</span><br>roubleshoot, maintain, supports applications.</li>
+                        <li><span>Customer support</span><br>Assists & resolving issue of users.</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Graduate</span><br>Bsc Computer Science.</li>
+                        <li><span>HSC</span><br>General Science.</li>
+                        <li><span>SSC</span><br>Maharashtra Board.</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section project>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+
+<div class="work b">
+    <img src="images/Horizontal Scrolling.jpeg">
+    <div class="layer">
+        <h3>Horizontal Image Scrolling</h3>
+        <p>Horizontal Scrolling of Image Gallery with Color Transition</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+
+<div class="work">
+    <img src="images/password article pic.jpg">
+    <div class="layer">
+    <h3>Password Generator</h3>
+    <p>Random Password Generator with Strength Indicator and Show/Hide Feature.</p>
+    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+</div>
+
+<div class="work b">
+    <img src="images/Notes App.png">
+    <div class="layer">
+    <h3>My Notes</h3>
+    <p>Notes-Taking Application with Create, Save, and Delete Functionality.</p>
+    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div>
+</div>
+
+ </div>
+        <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+</section>
+<section Contact>
+<div class="contact">  
+           <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="column">
+            <p><i class="fa-solid fa-paper-plane"></i>sonarrahul995@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>7021729094</p>
+        </div>
+            <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Rahul_sonar _Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
